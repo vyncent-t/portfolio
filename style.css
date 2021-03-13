@@ -7,22 +7,22 @@
 }
 
 body {
-    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
-    background-blend-mode: multiply;
+    background: linear-gradient(to bottom, #586f7c, #b8dbd9);
     background-size: cover;
     color: white;
 }
 
+
 .banner {
-    background-color: #1C1C1C;
+    background-color: #182329;
     font-size: 1rem;
     color: white;
     width: 100%;
     height: 15%;
-    margin-bottom: 1rem;
 }
+
 .footer {
-    background-color: #1C1C1C;
+    background-color: #2f4550;
     font-size: 1rem;
     color: white;
     width: 100%;
@@ -30,9 +30,6 @@ body {
     margin-top: 2rem;
 }
 
-.intro {
-    margin-bottom: 4rem;
-}
 
 ul{
     display: flex;
@@ -49,15 +46,37 @@ nav ul li {
 
 
 /* Spacing and styling for intro part */
-.intro {
+.foundation {
     display: flex;
+    max-height: 50%;
+    max-width: 90%;
+    margin: 4rem;
+    display: flex;
+    flex-direction: row;
 }
 
-.intro div{
+.intro {
+    background-color: white;
+    color: black;
+    padding: 2em;
+    text-align: center;
+    border-radius: 1rem;
+
+}
+
+.avatar {
+    max-height: 600px;
+    padding: 1em;
+    margin: 3em;
+
+    
+}
+
+/* .intro div{
     margin: 2rem;
     justify-content: center;
     align-items: center;
-}
+} */
 
 
 /* Need to style projects section later */
@@ -91,9 +110,39 @@ nav ul li {
     margin: 4em 1em 1em 1em;
 }
 
+h3 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+}
 .procard div img {
-    height: 70%;
+    height: 20rem;
     margin: 2em 0 2em 2em;
     border: 8px solid gold;
     border-radius: 1rem;
+}
+
+.bannerphoto {
+    background-image: url(/assets/images/photo-1487058792275-0ad4aaf24ca7.jfif);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    /* align-items: flex-start; */
+}
+
+.bannerphoto h1 {
+    font-size: 5em;
+    margin-top: 1em;
+    margin-bottom: .5em;
+    margin-left: 2em;
+
+}
+.bannerphoto h2 {
+    font-size: 4em;
+    margin-left: 3em;
 }
