@@ -50,8 +50,8 @@ nav ul li {
 .procard {
     background-color: white;
     color: black;
-    height: 80%;
-    width: 90%;
+    height: 50vh;
+    width: 90vw;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -64,7 +64,7 @@ nav ul li {
 }
 
 .intro div{
-    margin: 1rem;
+    margin: 2rem;
     justify-content: center;
     align-items: center;
 }
@@ -76,7 +76,7 @@ nav ul li {
 }
 
 .project div{
-    margin: 1rem;
+    margin: 2rem;
     justify-content: center;
     align-items: center;
 }
