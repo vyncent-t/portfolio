@@ -25,6 +25,8 @@ body {
     background-color: #2f4550;
     font-size: 1rem;
     color: white;
+    text-align: center;
+    padding: 1rem;
     width: 100%;
     height: 10vh;
     margin-top: 2rem;
@@ -50,7 +52,7 @@ nav ul li {
     display: flex;
     max-height: 50%;
     max-width: 90%;
-    margin: 4rem;
+    margin: 8rem 4rem 0 4rem;
     display: flex;
     flex-direction: row;
 }
@@ -63,7 +65,7 @@ nav ul li {
     padding: 2em;
     text-align: center;
     border-radius: 1rem;
-    margin: 2em;
+    margin: 4rem 2rem 2rem 4rem;
 }
 
 
@@ -71,13 +73,7 @@ nav ul li {
     max-height: 600px;
     margin: .4em;
     border-radius: 3em;
-}
-.avatarbg {
-    background-color: #fdfdfd;
-    height: 620px;
-    width: 740px;
-    border-radius: 3em;  
-    margin-left: 2em;
+    border: 15px solid #fdfdfd;;
 }
 
 /* .intro div{
@@ -90,12 +86,10 @@ nav ul li {
 /* Need to style projects section later */
 .project {
     display: flex;
-}
-
-.project div{
-    margin: 2rem;
-    justify-content: center;
-    align-items: center;
+    font-size: 100px;
+    line-height: 2;
+    text-align: center;
+    margin: 2em;
 }
 
 
@@ -115,12 +109,12 @@ nav ul li {
     color: blue;
     width: 50%;
     line-height: 2em;
-    margin: 4em 1em 1em 1em;
+    margin: 4em 1em 1em 4em;
+    text-align: center;
 }
 
 h3 {
     width: 100%;
-    text-align: center;
     margin-bottom: 2rem;
 }
 .procard div img {
