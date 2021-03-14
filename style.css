@@ -113,7 +113,7 @@ a {
 
 
 .procardfont {
-    color: blue;
+    color: black;
     width: 50%;
     line-height: 2em;
     margin: 4em 1em 1em 4em;
@@ -121,6 +121,7 @@ a {
 }
 
 h3 {
+    font-size: 1.5rem;
     width: 100%;
     margin-bottom: 2rem;
 }
