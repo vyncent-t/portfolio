@@ -58,18 +58,26 @@ nav ul li {
 .intro {
     background-color: white;
     color: black;
+    font-size: 50px;
+    line-height: 2;
     padding: 2em;
     text-align: center;
     border-radius: 1rem;
-
+    margin: 2em;
 }
+
 
 .avatar {
     max-height: 600px;
-    padding: 1em;
-    margin: 3em;
-
-    
+    margin: .4em;
+    border-radius: 3em;
+}
+.avatarbg {
+    background-color: #fdfdfd;
+    height: 80%;
+    width: 90%;
+    border-radius: 3em;  
+    margin-left: 2em;
 }
 
 /* .intro div{
