@@ -1,29 +1,59 @@
+:root {
+    --white-color: white;
+    --normal-text: 2rem;
+}
+
 * {
     /* font-family: 'Roboto', sans-serif; */
     font-family: 'Rubik', sans-serif;
-    font-size: 20px;
     margin: 0;
     padding: 0;
 }
 
 body {
-    background: linear-gradient(to bottom, #586f7c, #b8dbd9);
+    background: linear-gradient(to bottom, #323f56, #b8dbd9);
     background-size: cover;
-    color: white;
+    color: var(--white-color);
 }
 
 
 .banner {
     background-color: #182329;
-    font-size: 5rem;
+    font-size: 20px;
     color: white;
     width: 100%;
     height: 15%;
 }
 
+
+.bannerphoto {
+    background-image: url(/assets/images/photo-1487058792275-0ad4aaf24ca7.jfif);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
+.bannerphoto h1 {
+    font-size: 100px;
+    margin-top: 1em;
+    margin-left: 1em;
+
+}
+.bannerphoto h2 {
+    font-size: 65px;
+    margin-left: 2em;
+}
+
+
 .footer {
     background-color: #2f4550;
-    font-size: 1rem;
+    font-size: var(--normal-text);
     color: white;
     text-align: center;
     padding: 1rem;
@@ -45,114 +75,129 @@ nav ul li {
     display: inline-block;
     margin: 0.5rem 4rem 0.5rem .5rem;
     border: 2px solid white;
-    padding: .5rem .5rem;
+    padding: .5rem .5rem;    
 }
 
-a {
+li a {
     text-decoration: none;
     color: white;
 }
 
 
 /* Spacing and styling for intro part */
+
 .foundation {
     display: flex;
-    max-height: 50%;
-    max-width: 90%;
-    margin: 8rem 4rem 0 4rem;
-    display: flex;
     flex-direction: row;
-}
-
-.intro {
-    background-color: white;
-    color: black;
-    font-size: 50px;
-    line-height: 2;
-    padding: 2em;
-    text-align: center;
-    border-radius: 1rem;
-    margin: 4rem 2rem 2rem 4rem;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 
 .avatar {
-    max-height: 600px;
-    margin: .4em;
+    height: 400px;
+    margin: 6rem 2rem 2rem 10rem;
     border-radius: 3em;
-    border: 15px solid #fdfdfd;;
+    border: 15px solid #ffffff;
+    -webkit-box-shadow: 10px 10px 93px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 93px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 93px 0px rgba(0,0,0,0.75);
 }
 
-/* .intro div{
-    margin: 2rem;
-    justify-content: center;
-    align-items: center;
-} */
+
+.intro {
+    background-color: #dee2e6;
+    height: 40%;
+    width: 70%;
+    color: black;
+    font-size: 1rem;
+    line-height: 2;
+    padding: 2em;
+    text-align: center;
+    border-radius: 1rem;
+    margin: 9em 4em;
+    -webkit-box-shadow: 10px 10px 93px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 93px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 93px 0px rgba(0,0,0,0.75);
+}
+
+.intro h1 {
+    font-size: 2rem;
+}
 
 
 /* Need to style projects section later */
 .project {
-    display: flex;
-    font-size: 100px;
+    color: var(--white-color);
     line-height: 2;
+    margin: 4em 7em;
+    display: flex;
+}
+.projectfont {
     text-align: center;
-    margin: 2em;
+    font-size: 1rem;
 }
 
 
+
 /* adjustments for project cards */
-.procard {
-    background-color: white;
-    color: black;
+
+.projectboard {
+    width: 100%;
+    height: 50%;
     display: flex;
-    max-height: 50%;
-    max-width: 90%;
-    margin: 4rem;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+    flex: 1 3 auto;
+}
+
+.procard {	
+    display: flex;
+    flex-flow: column wrap;
+    height: 50vh;
+    width: 60vw;
+	margin: 2em auto;
     border-radius: 1rem;
+	background-color: white;
+	-webkit-box-shadow: 10px 10px 93px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 93px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 93px 0px rgba(0,0,0,0.75);
 }
 
 
 .procardfont {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
     color: black;
-    width: 50%;
+    font-size: 1rem;
     line-height: 2em;
-    margin: 4em 1em 1em 4em;
+    margin: 2em;
     text-align: center;
 }
 
 h3 {
     font-size: 1.5rem;
-    width: 100%;
     margin-bottom: 2rem;
 }
-.procard div img {
-    height: 20rem;
-    margin: 2em 0 2em 2em;
+
+
+.procardimg {
+    height: 55%;
+    width: 40%;
+    margin: 2em;
     border: 8px solid gold;
     border-radius: 1rem;
+    -webkit-box-shadow: 30px 20px 40px 0px rgba(110, 110, 110, 0.75);
+	-moz-box-shadow: 30px 20px 40px 0px rgba(110, 110, 110, 0.75);
+	box-shadow: 30px 20px 40px 0px rgba(110, 110, 110, 0.75);
+}
+.procardimginfo {
+    margin: 1em;
+    font-size: 1rem;
+}
+.procardimginfo a {
+    margin: 0 5em;
 }
 
-.bannerphoto {
-    background-image: url(/assets/images/photo-1487058792275-0ad4aaf24ca7.jfif);
-    height: 100vh;
-    width: 100vw;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: flex-start;
-    /* align-items: flex-start; */
-}
-
-.bannerphoto h1 {
-    font-size: 5em;
-    margin-top: 1em;
-    margin-bottom: .5em;
-    margin-left: 2em;
-
-}
-.bannerphoto h2 {
-    font-size: 4em;
-    margin-left: 3em;
-}
