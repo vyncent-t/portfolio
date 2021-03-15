@@ -62,12 +62,14 @@ nav li a {
 .bannerphoto h1 {
     font-size: 100px;
     margin-top: 1em;
-    margin-left: 1em;
+    margin-left: 2em;
+    align-self: center;
 
 }
 .bannerphoto h2 {
     font-size: 65px;
-    margin-left: 2em;
+    margin-left: 3em;
+    align-self: center;
 }
 
 
@@ -104,10 +106,6 @@ footer ul{
 
 
 
-
-
-
-
 /* Spacing and styling for intro part */
 
 .foundation {
@@ -130,7 +128,7 @@ footer ul{
 
 
 .intro {
-    background-color: #dee2e6;
+    background-color: #ffffff;
     height: 40%;
     width: 70%;
     color: black;
@@ -178,7 +176,7 @@ footer ul{
 .procard {	
     display: flex;
     flex-flow: column wrap;
-    height: 50vh;
+    height: 45vh;
     width: 60vw;
 	margin: 5em auto;
     border-radius: 1rem;
@@ -211,7 +209,7 @@ h3 {
     height: 30vh;
     width: 25vw;
     margin: 2em;
-    border: 8px solid gold;
+    border: 8px solid #2f4550;
     border-radius: 1rem;
     -webkit-box-shadow: 30px 20px 40px 0px rgba(110, 110, 110, 0.75);
 	-moz-box-shadow: 30px 20px 40px 0px rgba(110, 110, 110, 0.75);
