@@ -186,8 +186,8 @@ h3 {
 
 
 .procardimg {
-    height: 55%;
-    width: 40%;
+    height: 30vh;
+    width: 25vw;
     margin: 2em;
     border: 8px solid gold;
     border-radius: 1rem;
