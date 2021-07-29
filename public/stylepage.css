@@ -22,7 +22,7 @@
 }
 
 .bannerphoto {
-	background-image: url("/assets/images/codingimage.jpg");
+	background-image: url("assets/images/codingimage.jpg");
 	height: 600px;
 	width: auto;
 	background-size: cover;
