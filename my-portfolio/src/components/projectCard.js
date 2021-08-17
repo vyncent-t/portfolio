@@ -14,33 +14,36 @@ function ProjectCard() {
                 <div class="col m-2">
                     <div class="card shadow-sm">
                         <div class="card-body">
-                            <img src="assets/images/atmossc.jpg" class="img-thumbnail" alt="..." />
+                            <img src={project.img} class="img-thumbnail" alt="..." />
                             <h1 class="fw-light">{project.title}</h1>
                             <p class="card-text">
                                 {project.desc}
                             </p>
-                            <div class="d-flex justify-content-between align-items-center">
+                            <div class="mb-2">
+                                <small class="text-muted">{project.tech}</small>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center">
                                 <div class="btn-group">
                                     <button type="button" class="btn btn-sm btn-outline-secondary">
                                         <i class="bi bi-laptop"></i>
-                                        <a href="https://vyncent-t.github.io/atmosphere-project/"
+                                        <a href={project.deploy}
                                         >View project</a
                                         >
                                     </button>
                                     <button type="button" class="btn btn-sm btn-outline-secondary">
                                         <i class="bi bi-github"></i>
-                                        <a href="https://github.com/vyncent-t/atmosphere-project"
+                                        <a href={project.repo}
                                         >Github</a
                                         >
                                     </button>
                                 </div>
-                                <small class="text-muted">HTML, CSS, JavaScript</small>
                             </div>
                         </div>
                     </div>
                 </div>
-            ))}
-        </div>
+            ))
+            }
+        </div >
     )
 }
 
