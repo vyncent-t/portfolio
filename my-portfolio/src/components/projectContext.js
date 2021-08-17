@@ -13,7 +13,7 @@ const projectArr = []
 
 let proA = {
     title: "atmos",
-    image: "my-portfolio/src/images/atmossc.jpg",
+    image: "https://raw.githubusercontent.com/vyncent-t/portfolio-project/main/my-portfolio/src/images/atmossc.jpg",
     desc: "Atmos allows a user to choose a genre of music that they are in the mood for along with searching visuals they would like to see. The problem we are trying to solve is to allow the user to create a personalized experience without video editing knowledge or without requiring the use of multiple apps/browsers to achieve the same goal.",
     deploy: "https://vyncent-t.github.io/atmosphere-project/",
     repo: "https://github.com/vyncent-t/atmosphere-project",

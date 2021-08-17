@@ -14,7 +14,7 @@ function ProjectCard() {
                 <div class="col m-2">
                     <div class="card shadow-sm">
                         <div class="card-body">
-                            <img src={project.img} class="img-thumbnail" alt="..." />
+                            <img src="{project.img}" class="img-thumbnail" alt="..." />
                             <h1 class="fw-light">{project.title}</h1>
                             <p class="card-text">
                                 {project.desc}
