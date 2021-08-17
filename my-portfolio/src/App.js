@@ -1,5 +1,5 @@
 import './App.css';
-import PortfolioRender from '../src/components/portfolioRender';
+import PortfolioRender from './components/portfolioRender';
 
 function App() {
   return (

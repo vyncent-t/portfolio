@@ -18,6 +18,5 @@
   },
   "homepage": "https://github.com/vyncent-t/vincent-portfolio-project#readme",
   "dependencies": {
-    "bootstrap": "^5.0.2"
   }
 }
