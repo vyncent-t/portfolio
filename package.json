@@ -1,22 +1,45 @@
 {
-  "name": "vincent-portfolio-project",
-  "version": "1.0.0",
-  "description": "A work in progress portfolio page",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vyncent-t/vincent-portfolio-project.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/vyncent-t/vincent-portfolio-project/issues"
-  },
-  "homepage": "https://github.com/vyncent-t/vincent-portfolio-project#readme",
-  "dependencies": {
-  }
+	"name": "my-portfolio",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"@testing-library/jest-dom": "^5.14.1",
+		"@testing-library/react": "^11.2.7",
+		"@testing-library/user-event": "^12.8.3",
+		"bootstrap": "^5.0.2",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2",
+		"react-scripts": "4.0.3",
+		"web-vitals": "^1.1.2"
+	},
+	"homepage": "https://vyncent-t.github.io/portfolio-project/",
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		]
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"gh-pages": "^3.2.3"
+	}
 }
