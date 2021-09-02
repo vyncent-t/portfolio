@@ -7,15 +7,10 @@ function Projects() {
             <div class="m-4 p-4 p-md-5 mb-4 text-white rounded-3 bg-dark aboutme">
                 <h2>My projects</h2>
                 <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab alias similique ipsum omnis
-                    possimus molestias placeat nam quidem! Officiis, libero earum? Blanditiis nostrum
-                    repellendus tenetur ducimus assumenda, officia non illum culpa minima nobis, quis
-                    adipisci maiores neque, necessitatibus quos ex ea? Qui, omnis vero rerum at laudantium
-                    unde rem nam sint quis nobis repellat commodi impedit distinctio tempora earum
-                    aspernatur debitis pariatur veritatis, perspiciatis cumque dicta ullam eius? Consectetur
-                    rerum nesciunt, aspernatur minima dolor quas praesentium possimus modi odit ipsam rem ex
-                    a labore at nulla ab nihil vitae consequatur aut quo ipsum cupiditate? Vero porro
-                    inventore maiores autem similique?
+                    There is no greater feeling than the satisfaction of a job well done, being able to create new and engaging projects for myself and others from the ground up is what keeps me motivated. I pride myself on my ability to take an idea from an inspired thought, to pen and paper, to whiteboard, then from my screen and on to yours! Each project is an opportunity to experiment with new methods and technologies and to sharpen my skills not only as a developer, but as a creative.
+                </p>
+                <p>
+                    Below are some prime examples of projects i've taken from their conception in my own imagination to a functional application out on the internet!
                 </p>
             </div>
         </section>
