@@ -12,30 +12,30 @@ const projectArr = []
 
 
 let proA = {
-    title: "atmos",
+    title: "Travlr",
     image: "https://raw.githubusercontent.com/vyncent-t/portfolio-project/main/my-portfolio/src/images/atmossc.jpg",
-    desc: "Atmos allows a user to choose a genre of music that they are in the mood for along with searching visuals they would like to see. The problem we are trying to solve is to allow the user to create a personalized experience without video editing knowledge or without requiring the use of multiple apps/browsers to achieve the same goal.",
-    deploy: "https://vyncent-t.github.io/atmosphere-project/",
-    repo: "https://github.com/vyncent-t/atmosphere-project",
-    tech: "HTML, CSS, Javascript"
+    desc: "Travlr is a social media platform in which users express their experiences at venues or establishments in the form of recommendation posts, creating value by ways of exposure for establishments and reliable entertainment/information for the user base. Travlr is meant to be used primarily at a local level by tourists to better inform and make judgments based on engagement of the users native to their destination/city.",
+    deploy: "https://travlr-proj.herokuapp.com/",
+    repo: "https://github.com/vyncent-t/travlr-project",
+    tech: "Javascript, React.js, Bootstrap, MongoDB, Mongoose, GraphQL, HTML, CSS, Git, GitHub, Apollo, Insomnia"
 }
 
 let proB = {
-    title: "Budget tracker",
+    title: "Likeminded",
     image: "imgplace",
-    desc: "The goal of this app was to create a budget log that will store the name and amount of a transaction input by the uder that functions while offline in the browser using indexedDB.",
-    deploy: "https://offline-budget-project.herokuapp.com/",
-    repo: "https://github.com/vyncent-t/offline-budget-tracker-project",
-    tech: "HTML, CSS, Javascript, MongoDB, Mongoose"
+    desc: "Likeminded is a multi-user organizational app that allows users to create, propose, and manage activities within a group of other individual users on the platform. This app serves as a tool to better link users to each other through friend groups labeled as cliques which contain dynamic events created by the users where they propose plans to be decided on as a collective.",
+    deploy: "https://likeminded-project.herokuapp.com/",
+    repo: "https://github.com/vyncent-t/likeminded",
+    tech: "Tools: Javascript, HTML, CSS, Bootstrap, mySQL, Sequelize, mySQL workbench, Express.js, Handlebars.js"
 }
 
 let proC = {
-    title: "Workout Tracker",
-    image: "imgplace",
-    desc: "The goal of this app was to create a fitness log that allows the user to log their workouts dynamically using mongoDB as the database and mongoose.",
+    title: "atmos",
+    image: "https://raw.githubusercontent.com/vyncent-t/portfolio-project/main/my-portfolio/src/images/atmossc.jpg",
+    desc: "Atmos is a multi-media consumption app that allows the user to select both a preferred genre of music to be listened to through spotify access while viewing a playlist of curated visual atmospheric videos to be played simultaneously based off of keywords searched by the user. This provides a unique relaxation experience to the user only by streamlining both separate sources of audio and visuals in a single platform instance.",
     deploy: "https://vyncent-t.github.io/atmosphere-project/",
-    repo: "https://github.com/vyncent-t/workout-tracker",
-    tech: "HTML, CSS, Javascript, MongoDB, Mongoose"
+    repo: "https://github.com/vyncent-t/atmosphere-project",
+    tech: "HTML, CSS, Javascript"
 }
 
 projectArr.push(proA)
