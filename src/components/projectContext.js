@@ -35,7 +35,7 @@ let proC = {
     desc: "Atmos is a multi-media consumption app that allows the user to select both a preferred genre of music to be listened to through spotify access while viewing a playlist of curated visual atmospheric videos to be played simultaneously based off of keywords searched by the user. This provides a unique relaxation experience to the user only by streamlining both separate sources of audio and visuals in a single platform instance.",
     deploy: "https://vyncent-t.github.io/atmosphere-project/",
     repo: "https://github.com/vyncent-t/atmosphere-project",
-    tech: "HTML, CSS, Javascript"
+    tech: "Javascript, jQuery, HTML, CSS, Spotify API, Youtube API"
 }
 
 projectArr.push(proA)
