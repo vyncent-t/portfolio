@@ -1,8 +1,8 @@
-import Navbar from '../components/navbar'
-import Banner from './banner'
+import Navbar from './Navbar'
+import Banner from './Banner'
 import AboutMe from './aboutMe'
-import Projects from './projectIntro'
-import ProjectCard from './projectCard'
+import Projects from './ProjectIntro'
+import ProjectCard from './ProjectCard'
 
 export default function PortfolioRender() {
     return (

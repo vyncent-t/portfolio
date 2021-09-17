@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css'
-import projectArr from './projectContext';
+import projectArr from './ProjectContext';
 
 // import array of project data
 
