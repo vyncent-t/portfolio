@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap");
+
+.bannertextA {
+	font-family: "Roboto Mono", sans-serif;
+	color: white;
+	font-size: 85px;
+	margin: 1em 2em 0em 1.5em;
+}
+
+.bannertextB {
+	font-family: "Roboto Mono", sans-serif;
+	color: white;
+	font-size: 75px;
+	margin: 0em 2em 0em 1.8em;
+}
+
+.bannertextC {
+	font-family: "Roboto Mono", sans-serif !important;
+	color: white;
+	font-size: 75px;
+	margin: 0em 2em 1em 1.9em;
+}
