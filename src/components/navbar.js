@@ -25,10 +25,10 @@ function Navbar() {
                             <a className="nav-link active" aria-current="page" href="/">Home</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/#about">About me</a>
+                            <a className="nav-link" href="/portfolio/#about">About me</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/#projects">Projects</a>
+                            <a className="nav-link" href="/portfolio/#projects">Projects</a>
                         </li>
                         {/* <li className="nav-item">
                             <a className="nav-link" href="https://github.com/vyncent-t">Contact me</a>
