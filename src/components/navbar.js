@@ -22,7 +22,7 @@ function Navbar() {
                 <div className="collapse navbar-collapse d-flex justify-content-end " id="navbarText">
                     <ul className="navbar-nav mb-lg-0">
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="/">Home</a>
+                            <a className="nav-link active" aria-current="page" href="/portfolio">Home</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="/portfolio/#about">About me</a>
