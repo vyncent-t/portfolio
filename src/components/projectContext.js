@@ -1,3 +1,5 @@
+
+
 const projectArr = []
 // class Project {
 //     constructor(title, img, desc, deploy, repo, tech) {
@@ -13,7 +15,7 @@ const projectArr = []
 
 let proA = {
     title: "Travlr",
-    image: "https://github.com/vyncent-t/portfolio-project/blob/main/src/images/travlapp.jpg?raw=true",
+    image: "https://user-images.githubusercontent.com/78232183/138955285-0685e3f9-f2fb-42f1-95ce-930c1b7c1d90.png",
     desc: "Travlr is a social media platform in which users express their experiences at venues or establishments in the form of recommendation posts, creating value by ways of exposure for establishments and reliable entertainment/information for the user base. Travlr is meant to be used primarily at a local level by tourists to better inform and make judgments based on engagement of the users native to their destination/city.",
     deploy: "https://travlr-proj.herokuapp.com/",
     repo: "https://github.com/vyncent-t/travlr-project",
