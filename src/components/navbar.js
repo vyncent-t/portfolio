@@ -22,17 +22,17 @@ function Navbar() {
                 <div className="collapse navbar-collapse d-flex justify-content-end " id="navbarText">
                     <ul className="navbar-nav mb-lg-0">
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="https://github.com/vyncent-t">Home</a>
+                            <a className="nav-link active" aria-current="page" href="/">Home</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="https://github.com/vyncent-t">About me</a>
+                            <a className="nav-link" href="/#about">About me</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="https://github.com/vyncent-t">Projects</a>
+                            <a className="nav-link" href="/#projects">Projects</a>
                         </li>
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <a className="nav-link" href="https://github.com/vyncent-t">Contact me</a>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
             </div>

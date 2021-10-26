@@ -8,7 +8,7 @@ function AboutMe() {
             <div>
                 <img class="avatar rounded" src={avatar} alt="" />
             </div>
-            <div class="mt-4 p-4 p-md-5 mb-5 text-white rounded-3 bg-dark aboutme">
+            <div id="about" class="mt-4 p-4 p-md-5 mb-5 text-white rounded-3 bg-dark aboutme">
                 <div>
                     <div>
                         <h1>About Me</h1>
