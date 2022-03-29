@@ -6,6 +6,10 @@
 	--normal-text: 2rem;
 }
 
+.bgcolor {
+	background-color: #1c1d25;
+}
+
 .pagebackdrop {
 	background-image: url("./images/codingimage.jpg");
 	height: 500px;
@@ -17,6 +21,16 @@
 	justify-content: flex-start;
 	align-content: flex-start;
 	align-items: flex-start;
+}
+
+.socials {
+	margin-left: 1em;
+}
+
+.socials a {
+	margin-left: 0.5em;
+	color: white;
+	text-decoration: none;
 }
 
 .bannerphoto {

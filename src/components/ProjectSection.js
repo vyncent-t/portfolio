@@ -9,7 +9,7 @@ function ProjectSection() {
     return (
         <section className="my-4">
             <div className="container my-4">
-                <div id="projects" class="m-4 p-4 text-white rounded-3 bg-dark">
+                <div id="projects" class="m-4 p-4 text-white rounded-3 bgcolor">
                     <h2>My projects</h2>
                     <p>
                         I pride myself on my ability to take an idea from an inspired thought to the whiteboard and then finally from my screen and on to yours!

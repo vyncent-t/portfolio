@@ -10,8 +10,8 @@ nav {
 ul {
 	display: flex;
 	list-style: none;
-	width: 50vw;
-	justify-content: space-around;
+	width: 25vw;
+	justify-content: flex-end;
 }
 
 li {

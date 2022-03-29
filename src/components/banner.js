@@ -11,6 +11,16 @@ function Banner() {
                 <h1 >Hello World,</h1>
                 <p>I'm Vincent.</p>
                 <p>(Full Stack Developer)</p>
+                <div className='d-flex justify-content-center'>
+                    <div className='socials'>
+                        <i className="bi bi-github"></i>
+                        <a href="https://github.com/vyncent-t" >Github</a>
+                    </div>
+                    <div className='socials'>
+                        <i className="bi bi-linkedin"></i>
+                        <a href="https://www.linkedin.com/in/vincent-taylor-jr/">Linkedin</a>
+                    </div>
+                </div>
             </div>
         </section>
     )

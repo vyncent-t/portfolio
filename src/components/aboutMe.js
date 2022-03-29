@@ -9,7 +9,7 @@ function AboutMe() {
                 <img class="avatar" src={avatar} alt="self-portrait" />
             </div>
             <div className=" col-lg-8 p-4 ">
-                <div className=" p-4 text-white rounded-3 bg-dark boxshadow">
+                <div className=" p-4 text-white rounded-3 bgcolor boxshadow">
                     <h1>About Me</h1>
                     <p className='mt-3'>
                         Hello! I'm Vincent, a proud graduate of the Full Stack Web Development program of the University of Miami as well as an FIU Alumni with an bachelor's in International Relations.
