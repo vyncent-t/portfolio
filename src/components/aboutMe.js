@@ -4,18 +4,20 @@ import avatar from '../../src/images/avatar.jpg'
 
 function AboutMe() {
     return (
-        <section class="container d-flex">
-            <div>
-                <img class="avatar rounded" src={avatar} alt="" />
+        <section className="container d-flex flex-wrap justify-content-evenly align-items-center my-3 ">
+            <div className='col-lg-4 '>
+                <img class="avatar" src={avatar} alt="self-portrait" />
             </div>
-            <div id="about" class="mt-4 p-4 p-md-5 mb-5 text-white rounded-3 bg-dark aboutme">
-                <div>
-                    <div>
-                        <h1>About Me</h1>
-                        <p>
-                            Hey! I'm Vincent, a passionate, self-motivated aspiring Software Engineer located in South Florida. I am always eager for opportunities to further enrich current knowledge and master the latest skills and tools needed for cutting edge web development. An analytical thinker with a knack for problem solving, eager to explore new and creative approaches to any challenges. MERN Stack developer with strong proficiency in front-end works of HTML, CSS, and JavaScript with an emphasis on the React JavaScript framework while using Node js and a wide variety of NPM tools/packages. Completed a Certificate in Full Stack Web Development at the University of Miami. Excited to apply honed skills in creating user-friendly interfaces while onboard your team.
-                        </p>
-                    </div>
+            <div className=" col-lg-8 p-4 ">
+                <div className=" p-4 text-white rounded-3 bg-dark boxshadow">
+                    <h1>About Me</h1>
+                    <p className='mt-3'>
+                        Hello! I'm Vincent, a proud graduate of the Full Stack Web Development program of the University of Miami as well as an FIU Alumni with an bachelor's in International Relations.
+
+                        Primarily a MERN Stack developer with strong proficiency in JavaScript, HTML, and CSS, with an emphasis on the React JavaScript framework for my front-end works, while using my choice of MongoDB or MySQL along with Node js. and a wide variety of NPM tools/packages for back-end.
+
+                        Beyond being a passionate and self-motivated Software Engineer, I have been described as an analytical thinker with a knack for problem solving who is open to new and creative approaches to explore any challenge.
+                    </p>
                 </div>
             </div>
         </section>

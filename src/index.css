@@ -3,18 +3,25 @@
 /* using roboto and montserrat font family */
 
 :root {
-	--white-color: white;
 	--normal-text: 2rem;
 }
 
-* {
-	margin: 0;
-	padding: 0;
+.pagebackdrop {
+	background-image: url("./images/codingimage.jpg");
+	height: 500px;
+	width: auto;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-content: flex-start;
+	align-items: flex-start;
 }
 
 .bannerphoto {
-	background-image: url("./images/codingimage.jpg");
-	height: 600px;
+	background-color: #1c1d25;
+	height: 100vh;
 	width: auto;
 	background-size: cover;
 	display: flex;
@@ -26,12 +33,16 @@
 }
 
 .avatar {
-	height: 400px;
-	margin: 2rem 4rem 2rem 0.5rem;
-	border: 5px solid #494949;
+	height: 300px;
+	border-radius: 1em;
 	box-shadow: 5px 5px 20px 1px rgba(0, 0, 0, 0.7);
 }
 
-.aboutme {
+.projectImage {
+	height: 175px;
+	width: 300px;
+}
+
+.boxshadow {
 	box-shadow: 5px 5px 20px 1px rgba(0, 0, 0, 0.7);
 }

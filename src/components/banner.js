@@ -6,21 +6,13 @@ import styles from './BannerStyles.module.css'
 
 function Banner() {
     return (
-        <main>
-            <section>
-                <div className="container-fluid bannerphoto">
-                    <div className={styles.bannertextA}>
-                        <p>Hello World.</p>
-                    </div>
-                    <div className={styles.bannertextB}>
-                        <p>I'm Vincent,</p>
-                    </div>
-                    <div className={styles.bannertextC}>
-                        <p>let's create.</p>
-                    </div>
-                </div>
-            </section>
-        </main>
+        <section className={styles.bannertext}>
+            <div className={styles.bannerstyle}>
+                <h1 >Hello World,</h1>
+                <p>I'm Vincent.</p>
+                <p>(Full Stack Developer)</p>
+            </div>
+        </section>
     )
 }
 
