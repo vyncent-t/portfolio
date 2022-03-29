@@ -28,7 +28,7 @@ let proA = {
 let proB = {
     title: "Atmos",
     image: "https://user-images.githubusercontent.com/78232183/160482215-d71674d6-3108-4ec9-bd51-9dab43457a84.png",
-    desc: "Atmos is a multi-media consumption app that allows the users to simultaneously listen to their preferred genre of music via Spotify while viewing a playlist of curated atmospheric videos via YouTube. The user simply inputs their preference of audio and visual content from a menu and a media dashboard is generated based off of keywords by the user. This provides a unique relaxation experience to the user only by streamlining separate sources of audio and visuals in a single platform instance.",
+    desc: "Atmos is a multi-media consumption app that allows the users to simultaneously listen to their preferred genre of music via Spotify while viewing a playlist of curated atmospheric videos via YouTube. The user simply inputs their preference of audio and visual content into the custom menu and a media dashboard is generated based off of keywords by the user.",
     deploy: "https://atmos-project.herokuapp.com/",
     repo: "https://github.com/vyncent-t/atmos",
     tech: "Tools: Javascript, HTML, CSS, Bootstrap, React.js, Spotify API, Youtube API"
@@ -41,7 +41,7 @@ let proC = {
     desc: " Weathermind is a simple weather tracking project that allows users access to the current weather conditions for any major city in a 5 day forcast format. This project is a very minimalistic in nature, requiring only basic jQuery to function. The current weather for the city at the time of searching will be the main focus of the page while the following 5 day forecast will be available as complimentary data.",
     deploy: "https://vyncent-t.github.io/weathermind-app/",
     repo: "https://github.com/vyncent-t/weathermind-app",
-    tech: "Tools: Javascript, Jquery, HTML, CSS, Git, GitHub, Insomnia"
+    tech: "Tools: Javascript, jQuery, HTML, CSS, Git, GitHub, Insomnia"
 }
 
 
