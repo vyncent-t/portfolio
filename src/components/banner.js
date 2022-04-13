@@ -1,23 +1,28 @@
 import React from 'react';
 import '../App.css'
+import styles from './BannerStyles.module.css'
+
+// Need to link to the banner style mod to use the robo font and animations
 
 function Banner() {
     return (
-        <main>
-            <section>
-                <div class="container-fluid bannerphoto">
-                    <div class="bannertext-A">
-                        <p>Hello World</p>
+        <section className={styles.bannertext}>
+            <div className={styles.bannerstyle}>
+                <h1 >Hello World,</h1>
+                <p>I'm Vincent.</p>
+                <p>(Full Stack Developer)</p>
+                <div className='d-flex justify-content-center'>
+                    <div className='socials'>
+                        <i className="bi bi-github"></i>
+                        <a href="https://github.com/vyncent-t" >Github</a>
                     </div>
-                    <div class="bannertext-B">
-                        <p>I'm Vincent,</p>
-                    </div>
-                    <div class="bannertext-C">
-                        <p>lets create.</p>
+                    <div className='socials'>
+                        <i className="bi bi-linkedin"></i>
+                        <a href="https://www.linkedin.com/in/vincent-taylor-jr/">Linkedin</a>
                     </div>
                 </div>
-            </section>
-        </main>
+            </div>
+        </section>
     )
 }
 

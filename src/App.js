@@ -1,5 +1,6 @@
 import './App.css';
-import PortfolioRender from './components/portfolioRender';
+import "bootstrap/dist/css/bootstrap.min.css";
+import PortfolioRender from './pages/PortfolioRender';
 
 function App() {
     return (
