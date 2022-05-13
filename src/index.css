@@ -70,7 +70,7 @@
 }
 
 .card-body:hover {
-	color: white !important;
+	color: white;
 	text-decoration: none;
 	background-color: rgb(102, 178, 204);
 }
