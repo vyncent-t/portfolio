@@ -29,8 +29,8 @@ let proB = {
     title: "Atmos",
     image: "https://user-images.githubusercontent.com/78232183/160482215-d71674d6-3108-4ec9-bd51-9dab43457a84.png",
     desc: "Atmos is a multi-media consumption app that allows the users to simultaneously listen to their preferred genre of music via Spotify while viewing a playlist of curated atmospheric videos via YouTube. The user simply inputs their preference of audio and visual content into the custom menu and a media dashboard is generated based off of keywords by the user.",
-    deploy: "https://atmos-project.herokuapp.com/",
-    repo: "https://github.com/vyncent-t/atmos",
+    deploy: "https://the-atmos-project.herokuapp.com/",
+    repo: "https://github.com/vyncent-t/atmos-beta",
     tech: "Tools: Javascript, HTML, CSS, Bootstrap, React.js, Spotify API, Youtube API"
 }
 
