@@ -20,8 +20,16 @@ li {
 
 li a {
 	color: white;
+	text-emphasis: none;
 	text-decoration: none;
 	margin-left: 0.5em;
+}
+li a:hover {
+	color: white;
+	text-emphasis: none;
+	text-decoration: none;
+	margin-left: 0.5em;
+	font-weight: bolder;
 }
 
 .navlogo {

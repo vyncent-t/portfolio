@@ -4,7 +4,7 @@ import avatar from '../../src/images/avatar.jpg'
 
 function AboutMe() {
     return (
-        <section className="container d-flex flex-wrap justify-content-evenly align-items-center my-3 ">
+        <section id="about" className="container d-flex flex-wrap justify-content-evenly align-items-center my-3 ">
             <div className='col-lg-4 '>
                 <img class="avatar" src={avatar} alt="self-portrait" />
             </div>
