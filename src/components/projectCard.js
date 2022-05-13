@@ -91,7 +91,6 @@ function ProjectCard() {
                 {projectArr.map((project) => (
                     <div className="col-lg-auto my-3">
                         <div className="card shadow-sm text-dark">
-                            <div>{watchProject}</div>
                             <div className="card-body d-flex boxshadow">
                                 <div>
                                     {(watchDemo === true && watchProject === project.title) ? (
