@@ -33,6 +33,14 @@
 	text-decoration: none;
 }
 
+.socials a:hover {
+	margin-left: 0.5em;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	border-bottom: 2px solid white;
+}
+
 .bannerphoto {
 	background-color: #1c1d25;
 	height: 100vh;
@@ -59,4 +67,10 @@
 
 .boxshadow {
 	box-shadow: 5px 5px 20px 1px rgba(0, 0, 0, 0.7);
+}
+
+.card-body:hover {
+	color: white !important;
+	text-decoration: none;
+	background-color: rgb(102, 178, 204);
 }
