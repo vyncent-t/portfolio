@@ -14,11 +14,11 @@ function Banner() {
                 <div className='d-flex justify-content-center'>
                     <div className='socials'>
                         <i className="bi bi-github"></i>
-                        <a href="https://github.com/vyncent-t" >Github</a>
+                        <a href="https://github.com/vyncent-t" target="_blank" rel="noreferrer">Github</a>
                     </div>
                     <div className='socials'>
                         <i className="bi bi-linkedin"></i>
-                        <a href="https://www.linkedin.com/in/vincent-taylor-jr/">Linkedin</a>
+                        <a href="https://www.linkedin.com/in/vincent-taylor-jr/" target="_blank" rel="noreferrer">Linkedin</a>
                     </div>
                 </div>
             </div>
