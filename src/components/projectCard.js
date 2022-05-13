@@ -9,14 +9,14 @@ function ProjectCard() {
     console.log(projectArr)
 
     return (
-        <div className="container d-flex flex-wrap justify-content-around">
+        <div className="container d-flex flex-wrap justify-content-around boxshadow">
             <div className='row'>
                 {projectArr.map((project) => (
                     <div className="col-lg-4 my-3">
                         <div className="card shadow-sm text-dark">
                             <div className="card-body">
                                 <h3 className="card-title">{project.title}</h3>
-                                <img src={project.image} className="card-img-top mb-3" alt="..." />
+                                <img src={project.image} className="card-img-top mb-3 boxshadow" alt="..." />
                                 <p>
                                     {project.desc}
                                 </p>
