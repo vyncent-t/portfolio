@@ -27,7 +27,7 @@ let proA = {
 
 let proB = {
     title: "Atmos",
-    image: "https://user-images.githubusercontent.com/78232183/160482215-d71674d6-3108-4ec9-bd51-9dab43457a84.png",
+    image: "https://user-images.githubusercontent.com/78232183/168383161-a72cbe72-9698-4d20-a3f9-4eb0ef8caebb.png",
     desc: "Atmos is a multi-media consumption app that allows the users to simultaneously listen to their preferred genre of music via Spotify while viewing a playlist of curated atmospheric videos via YouTube. The user simply inputs their preference of audio and visual content into the custom menu and a media dashboard is generated based off of keywords by the user.",
     deploy: "https://the-atmos-project.herokuapp.com/",
     repo: "https://github.com/vyncent-t/atmos-beta",
