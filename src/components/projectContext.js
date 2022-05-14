@@ -39,7 +39,7 @@ let proB = {
 let proC = {
     title: "Weathermind",
     image: "https://user-images.githubusercontent.com/78232183/115094913-4f4fce00-9eed-11eb-84ac-f5a66fda12ff.png",
-    desc: " Weathermind is a simple weather tracking project that allows users access to the current weather conditions for any major city in a 5 day forcast format. This project is a very minimalistic in nature, requiring only basic jQuery to function. The current weather for the city at the time of searching will be the main focus of the page while the following 5 day forecast will be available as complimentary data.",
+    desc: " Weathermind is a simple weather tracking project that allows users access to the current weather conditions for any major city in a 5 day forecast format. This project is a very minimalistic in nature, requiring only basic jQuery to function. The current weather for the city at the time of searching will be the main focus of the page while the following 5 day forecast will be available as complimentary data.",
     deploy: "https://vyncent-t.github.io/weathermind-app/",
     repo: "https://github.com/vyncent-t/weathermind-app",
     tech: "Tools: Javascript, jQuery, HTML, CSS, Git, GitHub, Insomnia"
