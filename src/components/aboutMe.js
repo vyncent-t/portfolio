@@ -12,11 +12,7 @@ function AboutMe() {
                 <div className=" p-4 text-white rounded-3 bgcolor boxshadow">
                     <h1>About Me</h1>
                     <p className='mt-3'>
-                        Hello! I'm Vincent, a proud graduate of the Full Stack Web Development program of the University of Miami as well as an FIU Alumni with an bachelor's in International Relations.
-
-                        Primarily a MERN Stack developer with strong proficiency in JavaScript, HTML, and CSS, with an emphasis on the React JavaScript framework for my front-end works, while using my choice of MongoDB or MySQL along with Node js. and a wide variety of NPM tools/packages for back-end.
-
-                        Beyond being a passionate and self-motivated Software Engineer, I have been described as an analytical thinker with a knack for problem solving who is open to new and creative approaches to explore any challenge.
+                        Fullstack MERN developer with strong proficiency in both front-end and back-end development through use of HTML, CSS, and JavaScript with an emphasis on the React JavaScript framework paired with MongoDB, Express.js, Node.js, and a variety of NPM tools/packages. Passionate, self-motivated Software Engineer eager to further enrich current knowledge and master the latest skills and tools needed for cutting edge web development. An analytical thinker with a knack for problem solving, eager to explore new and creative approaches to any challenges. Florida International University Alumni and graduate of University of Miami’s Full Stack Web Development Bootcamp.
                     </p>
                 </div>
             </div>
