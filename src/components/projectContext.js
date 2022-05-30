@@ -17,10 +17,10 @@ let proA = {
     title: "Likemind",
     image: "https://user-images.githubusercontent.com/78232183/160478676-8a2887cc-b50d-4718-b9dc-0c62f7c85d00.jpg",
     demo: "https://www.youtube.com/watch?v=9ZkpfkBytEk",
-    desc: "Likemind is a multi-user organizational app that allows users to create, propose, and manage activities within a group of other individual users on the platform. The users will form a group (Clique) to which they can create events based on a calander date, within each date event users post plans they would like to put forward for voting. This app serves as a tool to better facilitate planning for events across diffrent social circles.",
+    desc: "Likemind is a social organizational app that allows users to create, propose, and manage activities within exclusive groups composed of other individuals on the platform. Users create an exclusive group (Clique) to which they are able to create events based on a calender date. Within each event, users can create dynamic posts serving as a plan/idea to put forward for group voting. This app serves as a tool to better facilitate planning for events across diffrent social circles.",
     deploy: "https://likemind-project.herokuapp.com/",
     repo: "https://github.com/vyncent-t/likemind-beta",
-    tech: "Tools: Javascript, HTML, CSS, Bootstrap, React.js, MongoDB, Mongoose, Express.js, Insomnia, Apollo, Apollo-client, Apollo-server, Git, GitHub, Heroku "
+    tech: "Tools: JavaScript, HTML, CSS, Bootstrap, React.js, Node.js, Express.js, Apollo, Apollo-client, Apollo-server, GraphQL, Git, GitHub, Heroku, Insomnia, Node Package Manager (NPM)"
 }
 
 
@@ -32,14 +32,14 @@ let proB = {
     desc: "Atmos is a multi-media consumption app that allows the users to simultaneously listen to their preferred genre of music via Spotify while viewing a playlist of curated atmospheric videos via YouTube. The user inputs their preference of audio and visual content into the custom menu and a media dashboard is generated playing the content they chose. The user can then change the content options from within the dashboard (change videos, playlists, songs, etc.) or can return to the menu for a new combination of options.",
     deploy: "https://the-atmos-project.herokuapp.com/",
     repo: "https://github.com/vyncent-t/atmos-beta",
-    tech: "Tools: Javascript, HTML, CSS, React.js, Express.js, Insomnia, Spotify API, Youtube API, Git, GitHub, Heroku"
+    tech: "Tools: JavaScript, HTML, CSS, Bootstrap, React.js, Redux.js, Node.js, Express.js, Spotify API, Google API, YouTube API, Git, GitHub, Heroku, Insomnia, Node Package Manager (NPM)"
 }
 
 
 let proC = {
     title: "Weathermind",
     image: "https://user-images.githubusercontent.com/78232183/115094913-4f4fce00-9eed-11eb-84ac-f5a66fda12ff.png",
-    desc: " Weathermind is a simple weather tracking project that allows users access to the current weather conditions for any major city in a 5 day forecast format. This project is a very minimalistic in nature, requiring only basic jQuery to function. The current weather for the city at the time of searching will be the main focus of the page while the following 5 day forecast will be available as complimentary data.",
+    desc: "Weathermind is a simplistic weather tracking application that allows users access to the current weather conditions for any major city in a 5-day forecast format. This project is a very minimalistic in nature, requiring only basic jQuery to function. The current weather for the city at the time of searching will be the main focus of the page while the following 5 day forecast will be available as complimentary data.",
     deploy: "https://vyncent-t.github.io/weathermind-app/",
     repo: "https://github.com/vyncent-t/weathermind-app",
     tech: "Tools: Javascript, jQuery, HTML, CSS, Git, GitHub, Insomnia"

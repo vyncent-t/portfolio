@@ -17,7 +17,7 @@ function ProjectSection() {
                         I believe within each project is an opportunity to experiment and learn new methods and technologies to further sharpen my skills not only as a developer but as a creative.
                     </p>
                     <p>
-                        Below are some prime examples of projects i've taken from their conception in my own imagination to a functional application out on the internet!
+                        Below are some examples of projects i've taken from their conception in my own imagination to a functional application out on the internet!
                     </p>
                     <ProjectCard />
                 </div>
