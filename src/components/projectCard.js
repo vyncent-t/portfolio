@@ -125,13 +125,13 @@ function ProjectCard() {
                                         <div className="btn-group">
                                             <button type="button" className="btn btn-sm ">
                                                 <i className="bi bi-laptop"></i>
-                                                <a href={project.deploy}
+                                                <a href={project.deploy} target="_blank" rel="noreferrer"
                                                 >View project</a
                                                 >
                                             </button>
                                             <button type="button" className="btn btn-sm ">
                                                 <i className="bi bi-github"></i>
-                                                <a href={project.repo}
+                                                <a href={project.repo} target="_blank" rel="noreferrer"
                                                 >Github</a
                                                 >
                                             </button>
