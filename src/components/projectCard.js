@@ -3,6 +3,7 @@ import '../App.css'
 import { useEffect, useState } from "react"
 import projectArr from './ProjectContext';
 import YouTube from "react-youtube"
+import styles from './ProjectCardStyles.module.css'
 var getYouTubeID = require('get-youtube-id')
 
 
@@ -95,9 +96,13 @@ function ProjectCard() {
                                 <div className='d-flex flex-lg-row flex-sm-column  flex-xs-column '>
                                     <div className='d-flex flex-column justify-content-center p-2 col-lg-8'>
                                         {(watchDemo === true && watchProject === project.title) ? (
-                                            <div>
+                                            <div className={styles.videobox}>
                                                 <YouTube videoId={getYouTubeID(project.demo)} opts={opts} onReady={onReady} />
+                                                <div>
+                                                    <button className="btn btn-primary" onClick={watchProjectOff}>Close Video</button>
+                                                </div>
                                             </div>
+
                                         ) : (
                                             <div>
                                                 <img src={project.image} className="card-img-top mb-3 boxshadow" alt="..." />
@@ -108,7 +113,7 @@ function ProjectCard() {
                                         {(project.demo && (<div>
                                             {(watchDemo && watchProject === project.title) ? (
                                                 (<div>
-                                                    <button className="btn btn-primary" onClick={watchProjectOff}>Close Video</button>
+                                                    {/* <button className="btn btn-primary" onClick={watchProjectOff}>Close Video</button> */}
                                                 </div>)
                                             ) : <div>
                                                 <button value={project.title} className="btn btn-primary" onClick={watchProjectOn}>Watch Demo</button>
