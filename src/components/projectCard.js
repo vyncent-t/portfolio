@@ -86,57 +86,60 @@ function ProjectCard() {
 
 
     return (
-        <div className="container justify-content-around">
+        <div className="justify-content-around">
             <div className='d-flex flex-column'>
                 {projectArr.map((project) => (
-                    <div className="col-lg-auto my-3">
+                    <div className=" col-lg-auto my-3">
                         <div className="card shadow-sm text-dark">
-                            <div className="card-body d-flex boxshadow">
-                                <div>
-                                    {(watchDemo === true && watchProject === project.title) ? (
-                                        <div>
-                                            <YouTube videoId={getYouTubeID(project.demo)} opts={opts} onReady={onReady} />
-                                        </div>
-                                    ) : (
-                                        <div>
-                                            <img src={project.image} className="card-img-top mb-3 boxshadow" alt="..." />
-                                            <small>{project.tech}</small>
-                                        </div>
-                                    )}
+                            <div className="card-body boxshadow">
+                                <div className='d-flex flex-lg-row flex-sm-column  flex-xs-column '>
+                                    <div className='d-flex flex-column justify-content-center p-2 col-lg-8'>
+                                        {(watchDemo === true && watchProject === project.title) ? (
+                                            <div>
+                                                <YouTube videoId={getYouTubeID(project.demo)} opts={opts} onReady={onReady} />
+                                            </div>
+                                        ) : (
+                                            <div>
+                                                <img src={project.image} className="card-img-top mb-3 boxshadow" alt="..." />
+                                                <small>{project.tech}</small>
+                                            </div>
+                                        )}
 
-                                    {(project.demo && (<div>
-                                        {(watchDemo && watchProject === project.title) ? (
-                                            (<div>
-                                                <button className="btn btn-primary" onClick={watchProjectOff}>Close Video</button>
-                                            </div>)
-                                        ) : <div>
-                                            <button value={project.title} className="btn btn-primary" onClick={watchProjectOn}>Watch Demo</button>
-                                        </div>}
-                                    </div>))}
-
-                                </div>
-
-                                <div className=' d-flex flex-column justify-content-center m-2 p-2 w-75'>
-                                    <h3 className="card-title">{project.title}</h3>
-                                    <div>
-                                        <p>{project.desc}</p>
+                                        {(project.demo && (<div>
+                                            {(watchDemo && watchProject === project.title) ? (
+                                                (<div>
+                                                    <button className="btn btn-primary" onClick={watchProjectOff}>Close Video</button>
+                                                </div>)
+                                            ) : <div>
+                                                <button value={project.title} className="btn btn-primary" onClick={watchProjectOn}>Watch Demo</button>
+                                            </div>}
+                                        </div>))}
                                     </div>
-                                    <div className="d-flex justify-content-center align-items-center">
-                                        <div className="btn-group">
-                                            <button type="button" className="btn btn-sm ">
-                                                <i className="bi bi-laptop"></i>
-                                                <a href={project.deploy} target="_blank" rel="noreferrer"
-                                                >View project</a
-                                                >
-                                            </button>
-                                            <button type="button" className="btn btn-sm ">
-                                                <i className="bi bi-github"></i>
-                                                <a href={project.repo} target="_blank" rel="noreferrer"
-                                                >Github</a
-                                                >
-                                            </button>
+
+                                    <div className=' d-flex flex-column justify-content-center m-2 p-2 col-lg-4'>
+                                        <h3 className="card-title">{project.title}</h3>
+                                        <div>
+                                            <p>{project.desc}</p>
+                                        </div>
+                                        <div className="d-flex justify-content-center align-items-center">
+                                            <div className="btn-group">
+                                                <button type="button" className="btn btn-sm ">
+                                                    <i className="bi bi-laptop"></i>
+                                                    <a href={project.deploy} target="_blank" rel="noreferrer"
+                                                    >View project</a
+                                                    >
+                                                </button>
+                                                <button type="button" className="btn btn-sm ">
+                                                    <i className="bi bi-github"></i>
+                                                    <a href={project.repo} target="_blank" rel="noreferrer"
+                                                    >Github</a
+                                                    >
+                                                </button>
+                                            </div>
                                         </div>
                                     </div>
+
+
                                 </div>
                             </div>
                         </div>
