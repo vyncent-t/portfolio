@@ -6,6 +6,9 @@
 	--normal-text: 2rem;
 }
 
+* {
+	scroll-behavior: smooth;
+}
 .bgcolor {
 	background-color: #1c1d25;
 }

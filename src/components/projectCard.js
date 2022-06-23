@@ -72,10 +72,10 @@ function ProjectCard() {
 
 
     const opts = {
-        height: 500,
-        width: 900,
-        // height: `${youtubeHeight}`,
-        // width: `${youtubeWidth}`,
+        // height: 500,
+        // width: 900,
+        height: `${youtubeHeight}`,
+        width: `${youtubeWidth}`,
         playerVars: {
             // https://developers.google.com/youtube/player_parameters
             autoplay: 1,
@@ -125,6 +125,9 @@ function ProjectCard() {
                                         <h3 className="card-title">{project.title}</h3>
                                         <div>
                                             <p>{project.desc}</p>
+                                        </div>
+                                        <div>
+                                            <p className='text-muted'>{project.note}</p>
                                         </div>
                                         <div className="d-flex justify-content-center align-items-center">
                                             <div className="btn-group">
