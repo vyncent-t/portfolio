@@ -1,0 +1,37 @@
+nav {
+	font-size: 20px;
+	padding-top: 0.5em;
+	color: white;
+	background-color: #272833;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	position: sticky;
+	top: 0;
+	z-index: 1;
+	box-shadow: 5px 5px 20px 1px rgba(0, 0, 0, 0.7);
+}
+
+ul {
+	display: flex;
+	list-style: none;
+	width: 25vw;
+	justify-content: flex-end;
+}
+
+li {
+	width: 200px;
+}
+
+li a {
+	color: white;
+	text-decoration: none;
+	margin-left: 0.5em;
+	font-size: 20px;
+}
+
+li a:hover {
+	color: rgb(73, 132, 243);
+	margin-left: 0.5em;
+	font-size: 20px;
+}
