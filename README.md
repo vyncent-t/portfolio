@@ -1,6 +1,6 @@
 # My Portfolio
 
-This is my personal portfolio website built with React, showcasing my projects and skills. The website is deployed to [GitHub Pages](https://pages.github.com/) and can be accessed at [https://your-username.github.io/your-portfolio-name](https://your-username.github.io/your-portfolio-name).
+This is my personal portfolio website built with React, showcasing my projects and skills. The website is deployed to [GitHub Pages](https://pages.github.com/) and can be accessed at [https://vyncent-t.github.io/portfolio](https://vyncent-t.github.io/portfolio).
 
 ## Table of Contents
 
