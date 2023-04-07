@@ -8,7 +8,6 @@ This is my personal portfolio website built with React, showcasing my projects a
 - [Technologies Used](#technologies-used)
 - [Features](#features)
 - [Demo](#demo)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Description
