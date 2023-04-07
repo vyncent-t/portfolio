@@ -1,0 +1,35 @@
+.footer {
+	background-color: #272833;
+	color: white;
+	padding: 2em 0;
+	box-shadow: 5px 5px 20px 1px rgba(0, 0, 0, 0.7);
+}
+
+.footer h3 {
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-bottom: 1.5rem;
+}
+
+.footer p {
+	margin-bottom: 1.5rem;
+}
+
+.footer ul {
+	margin: 0;
+	padding: 0;
+}
+
+.footer li {
+	display: inline-block;
+	margin-right: 1.5rem;
+}
+
+.footer a {
+	color: white;
+	text-decoration: none;
+}
+
+.footer a:hover {
+	color: #007bff;
+}
