@@ -19,7 +19,7 @@ function ProjectCard(props) {
                             <div className='col-lg-6 col-sm-12 d-flex flex-column justify-content-center align-items-center'>
                                 <h3 className="card-title">{project.title}</h3>
                                 <p className='text-muted'>
-                                    {project.nature}
+                                    {project.nature} - {project.role}
                                 </p>
                                 <p>
                                     {project.desc}
